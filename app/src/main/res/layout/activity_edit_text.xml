@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_dark"
+    android:orientation="vertical"
+    tools:context=".EditTextActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_am_second_activity"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:gravity="center"       />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:hint="@string/email"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fields"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:hint="@string/password"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fields"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:hint="@string/phone"
+        android:textColorHint="@color/black"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/fields"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:id="@+id/buttonBackActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/button"
+        android:fontFamily="monospace"
+
+        android:text="@string/backToMainActivity" />
+
+    <ImageView
+        android:id="@+id/imagePechenie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40sp"
+        app:srcCompat="@drawable/pechenie" />
+
+
+</LinearLayout>

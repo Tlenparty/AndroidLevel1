@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cтиль для нажатия кнопки
+           shape - форма, corners - скругление, stroke - обводка, solid - основной цвет.
+    -->
+    <item android:state_pressed="true" >
+        <shape android:shape="rectangle"  >
+            <corners android:radius="20dip" />
+            <stroke android:width="4dip" android:color="#acb5c4" />
+            <solid android:color="#cbd0d8"/>
+        </shape>
+    </item>
+    <!-- Стиль при наведении курсора-->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"  >
+            <corners android:radius="20dip" />
+            <stroke android:width="4dip" android:color="#acb5c4" />
+            <solid android:color="#cbd0d8"/>
+        </shape>
+    </item>
+    <item>
+        <!-- Первоночальное состояние-->
+        <shape android:shape="rectangle"  >
+            <corners android:radius="20dip" />
+            <stroke android:width="4dip" android:color="#acb5c4" />
+            <solid android:color="#cbd0d8"/>
+        </shape>
+    </item>
+</selector>
