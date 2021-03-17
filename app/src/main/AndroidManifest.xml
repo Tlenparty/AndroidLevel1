@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.geekbrain.androidlevel1">
+    <!--  В Manifest прописываем разрешения. Проверяет что вобще наше android приложение может -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -10,12 +12,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLevel1">
         <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text"
+            android:theme="@style/Theme.AndroidLevel1.NoActionBar">
+            <intent-filter>
+                <action android:name=".EditTextActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidLevel1.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

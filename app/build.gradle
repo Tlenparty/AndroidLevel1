@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId "com.geekbrain.androidlevel1"
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion 21 // Минмимальная версия
+        targetSdkVersion 30  // Все фичи из API 30 (Android 11)
+        versionCode 1 //buld приложения
+        versionName "1.0" // имя версии
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -23,13 +23,14 @@ android {
         }
     }
     compileOptions {
+        // Автоматически подключена java 8.
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
 dependencies {
-
+    // Зависимости, тут подключаются
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
@@ -38,4 +39,5 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'org.naishadhparmar.zcustomcalendar:zcustomcalendar:1.0.1'
 }
