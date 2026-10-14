@@ -1,25 +1,25 @@
 # Widgets Demo
 
-Небольшое Android-приложение на Java — песочница со стандартными элементами
-интерфейса: Switch, CheckBox, ToggleButton, ImageView, поля ввода и календарь.
+A small Android app in Java: a sandbox for standard UI elements:
+Switch, CheckBox, ToggleButton, ImageView, input fields, and a calendar.
 
-## Возможности
+## Features
 
-- Главный экран на ConstraintLayout: изображение, Switch (меняет фон экрана),
-  CheckBox, ToggleButton, переход на второй экран
-- Календарь (CalendarView): выбранная дата показывается во всплывающем сообщении
-- Второй экран с несколькими EditText и возвратом на главный
+- Main screen built with ConstraintLayout: an image, a Switch (changes the screen
+  background), a CheckBox, a ToggleButton, and navigation to a second screen
+- Calendar (CalendarView): the selected date is shown in a popup message
+- A second screen with several EditText fields and a way back to the main screen
 
-## Стек
+## Tech stack
 
-| Область | Технологии                                        |
-|---------|---------------------------------------------------|
-| Язык    | Java 8                                            |
-| UI      | Activity, ConstraintLayout, LinearLayout, Material Components |
+| Area     | Technologies                                      |
+|----------|---------------------------------------------------|
+| Language | Java 8                                            |
+| UI       | Activity, ConstraintLayout, LinearLayout, Material Components |
 
-## Сборка
+## Build
 
-Требуется JDK 11–17 и Android SDK 30.
+Requires JDK 11–17 and Android SDK 30.
 
 ```bash
 ./gradlew assembleDebug
