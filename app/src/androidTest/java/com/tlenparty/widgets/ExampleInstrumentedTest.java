@@ -1,4 +1,4 @@
-package com.geekbrain.androidlevel1;
+package com.tlenparty.widgets;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.geekbrain.androidlevel1", appContext.getPackageName());
+        assertEquals("com.tlenparty.widgets", appContext.getPackageName());
     }
 }

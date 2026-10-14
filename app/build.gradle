@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.geekbrain.androidlevel1"
+        applicationId "com.tlenparty.widgets"
         minSdkVersion 21 // Минмимальная версия
         targetSdkVersion 30  // Все фичи из API 30 (Android 11)
         versionCode 1 //buld приложения

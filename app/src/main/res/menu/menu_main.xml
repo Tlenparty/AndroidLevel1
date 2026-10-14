@@ -1,4 +1,4 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.geekbrain.androidlevel1.MainActivity"/>
+    tools:context="com.tlenparty.widgets.MainActivity"/>

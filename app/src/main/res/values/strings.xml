@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidLevel1</string>
+    <string name="app_name">WidgetsDemo</string>
     <string name="hello_world">Привет, мир!</string>
     <string name="new_text">New text</string>
     <string name="button">Button</string>

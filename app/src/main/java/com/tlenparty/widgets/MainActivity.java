@@ -1,4 +1,4 @@
-package com.geekbrain.androidlevel1;
+package com.tlenparty.widgets;
 
 import android.content.Intent;
 import android.graphics.Color;
